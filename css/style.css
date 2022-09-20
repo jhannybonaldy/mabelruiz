@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    padding: 10px;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo svg{
+    width: 100%;
+    height: inherit;
+}
+
+h2{
+    font-size: 25px;
+}
+
+a{
+    display: inline-block;
+    background-color:rgb(0, 170, 99) ;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    animation: scale 2s ease-out infinite;
+    -webkit-animation: scale 2s ease-out infinite;
+    -webkit-animation: scale 2s ease-out infinite;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+    50%{
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+}
+    100%{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+}
+
+.text{
+    font-size: 15px;
+}
+
+.container__counter{
+    display: flex;
+    flex-direction: row;
+}
+
+.container__counter p{
+    flex-grow: 1;
+    background-color: rgb(10, 0, 30);
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#minutes, #seconds{
+    font-size: 60px;
+}
+
+.footer{
+    color: #888;
+    font-size: 13px;
+}
+
